@@ -112,7 +112,6 @@ display: inline-block;
 
 .section{
     display: flex;
-    margin-bottom: 1px;
 }
 
 .div_type_1{
