@@ -6,6 +6,7 @@
 
 a{
     text-decoration: none;
+
 }
 
 li{
@@ -14,4 +15,85 @@ li{
 ul {
     margin-left: 0;
     padding-left: 0;
+
+}
+
+#body{
+    margin: auto;
+    max-width: 1200px;
+    width: 100%;
+    background-color: #E5E5E5;
+}
+
+#header{
+    background-color: #FFFFFF;
+    display: flex;
+}
+
+#navigation_list{
+    display: inline-block;
+    margin: 19px 93px 20px 71px;
+}
+
+.navigation_paragraph{
+    display: inline-block;
+    padding-right: 33px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    font-style: normal;
+}
+
+#logo{
+display: inline-block;
+
+}
+
+#search{
+    display: inline-block;
+    margin: 24px 0px 23px 209px;
+}
+
+#like{
+    display: inline-block;
+    margin: 14px 0px 24px 21px;
+}
+
+#a_want_here{
+    display: inline-block;
+    margin: 14px 0px 14px 20px;
+    padding: 10px 32px 10px 32px;
+    background-color: #756257;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+#sec_welcome{
+    text-align: center;
+    background-image: url("../images/welcome-background.svg");
+    background-repeat: no-repeat;
+    padding-top: 51px;
+}
+
+#img_welcome{
+    margin-bottom: 11px;
+}
+
+#img_gorgeous{
+    margin-bottom: 53px;
+}
+
+#img_sedona{
+    margin-bottom: 26px;
+}
+
+
+
+#sec_services{
+    display: flex;
 }
