@@ -52,12 +52,12 @@ display: inline-block;
 
 #search{
     display: inline-block;
-    margin: 24px 0px 23px 209px;
+    margin: 24px 0 23px 209px;
 }
 
 #like{
     display: inline-block;
-    margin: 14px 0px 24px 21px;
+    margin: 14px 0 24px 21px;
 }
 
 #a_want_here{
@@ -77,6 +77,7 @@ display: inline-block;
     text-align: center;
     background-image: url("../images/welcome-background.svg");
     background-repeat: no-repeat;
+    background-color: #FFFFFF;
     padding-top: 51px;
 }
 
@@ -92,7 +93,22 @@ display: inline-block;
     margin-bottom: 26px;
 }
 
+#sec_lil_city{
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 63px 0 79px 0;
+    font-size: 22px;
+    line-height: 36px;
+    color: #333333;
+}
 
+.h2{
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 23px;
+}
 
 #sec_services{
     display: flex;
