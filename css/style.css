@@ -110,6 +110,68 @@ display: inline-block;
     margin-bottom: 23px;
 }
 
-#sec_services{
+.section{
     display: flex;
+    margin-bottom: 1px;
+}
+
+.div_type_1{
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    background-color: #83B3D3;
+    padding: 98px 90px 60px 90px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.h3_type_1{
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.p_number{
+    margin-bottom: 26px;
+}
+
+.div_type_2{
+    text-align: center;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+    background: rgba(131, 179, 211, 0.12);
+    padding: 0 75px 79px 75px;
+    max-width: 400px;
+    width: 100%;
+
+}
+
+#div_housing{
+    padding-top: 89px;
+}
+
+#div_food{
+    padding-top: 91px;
+    background: #FFFFFF;
+}
+
+#div_souvenirs{
+    padding-top: 85px;
+}
+
+
+.img_icon{
+    margin-bottom: 23px;
+}
+
+.h3_type_2{
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #000000;
+
 }
